@@ -1,0 +1,80 @@
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexming.css);
+html{background-color: #FCF8F7;
+    max-width: 1000px;
+    margin: auto;
+}
+header{
+font-family: 'cwTeXMing', serif;
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+justify-content: space-around;
+height: 110px;
+background-color:#B4B9E5; 
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'cwTeXMing', serif;
+    background-color: #E5DDF4;
+}
+.nav{
+    display:inline-flex;
+    margin-left: -40px;
+}
+.lannav{
+    display:inline-flex;
+    margin-right: -10px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-between;
+}
+li{
+    display: flex;
+    background-color: #B4B9E5;
+    border-radius: 3px 3px 0 0;
+    font-weight: bolder;
+    margin-right:10px;
+    padding:10px;
+}
+.me{
+    margin-top: -40px;
+    height: 100px;
+    background-color:#B4B9E5; 
+    border-radius: 3px;
+}
+.me h1{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-family: 'cwTeXMing', serif;
+}
+section{
+    background-color: #E5DDF4;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    padding:10px;
+}
+p{
+    display: flex;
+    justify-content: center;
+    font-family: 'cwTeXMing', serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+footer{
+    margin-top: -15px;
+    height: 150px;
+    background-color:#B4B9E5; 
+    color:#000000;
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    padding: 10px;
+    font-family: 'cwTeXMing', serif;
+}

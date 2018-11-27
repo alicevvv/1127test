@@ -1,0 +1,25 @@
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexming.css);
+html{background-color: #FCF8F7;
+    margin: auto;
+    }
+body{display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'cwTeXMing', serif;
+}
+.first{
+    margin-top: 100px;
+}
+.second{display: flex;
+    justify-content: center;}
+button{width:100px;
+    height:70px;
+    background-color: #5C43BC;
+    border-radius:10px;}
+.button{
+    font-weight: bold;
+    font-size:18px;
+    color:#ffffff;
+    border-radius:10px;
+    font-family: 'cwTeXMing', serif;
+}
